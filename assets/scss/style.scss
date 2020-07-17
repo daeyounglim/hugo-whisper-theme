@@ -1,6 +1,7 @@
 // Font
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Lora:400,700|Roboto+Mono:300,400');
-
+// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Lora:400,700|Roboto+Mono:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Mono:300,400');
+@import url('https://rsms.me/inter/inter.css');
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap-variables';
@@ -39,12 +40,18 @@
 @import 'pages/home';
 
 // Global
-body {
+html {
   font-family: $font-family-base;
+  -webkit-font-smoothing: antialiased;
   font-size: 1rem;
+}
+
+body {
+  // background-color: #070707 !important;
+  background-color: #070707 !important;
   font-weight: 400;
-  line-height: 1.4;
   color: $black;
+  line-height: 1.4;
 }
 .container {
   padding-left: $grid-gutter-width;

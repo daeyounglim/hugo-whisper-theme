@@ -1,10 +1,12 @@
 .sub-footer {
-  background: #f4f5fb;
+  // background: #f4f5fb;
+  background: #070707;
   padding-top: 20px;
   padding-bottom: 20px;
   @include media-breakpoint-up(md) {
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: left;
   }
   .sub-footer-inner {
     display: flex;
@@ -20,7 +22,7 @@
       li {
         list-style: none;
         display: block;
-        color: #333;
+        color: #FFF;
         font-size: 0.9rem;
         line-height: 1.8;
         font-weight: bold;
@@ -29,10 +31,10 @@
           color: #ffffff;
         }
         a {
-          color: #333;
+          color: #FFF;
           text-decoration: none;
           &:hover {
-            text-decoration: underline;
+            text-decoration: none;
           }
         }
         span {
@@ -44,7 +46,7 @@
         }
         &.zerostatic {
           a {
-            color: #333;
+            color: #FFF;
           }
         }
       }
